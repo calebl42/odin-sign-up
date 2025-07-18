@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="background-image">
+    <div class="logo">
+      <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="odin head" width="100">
+      <h1>
+        ODIN
+      </h1>
+    </div>
+  </div>
+  <main>
+    <header>
+      <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started</h2>
+      <h2>You know you want to.</h2>
+    </header>
+    <form action="#" method="post" id="sign-up">
+      <h2>
+        Let's do this!
+      </h2>
+      <div class="cols">
+        <div class="col1">  
+          <div>
+            <label for="first-name">FIRST NAME</label>
+          </div>
+          <input type="text" id="first-name" name="first-name" required>
+          <div>
+            <label for="email">EMAIL</label>
+          </div>
+          <input type="email" id="email" name="email" required>
+          <div>
+            <label for="password">PASSWORD</label>
+          </div>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div class="col2">
+          <div>
+            <label for="last-name">LAST NAME</label>
+          </div>
+          <input type="text" id="last-name" name="last-name" required>
+          <div>
+            <label for="tel">PHONE NUMBER</label>
+          </div>
+          <input type="tel" id="tel" name="tel">
+          <div>
+            <label for="confirm-password">CONFIRM PASSWORD</label>
+          </div>
+          <input type="password" id="confirm-password" name="confirm-password" required>
+        </div>
+      </div>
+    </form>
+    <footer>
+      <button type="submit" form="sign-up">Create Account</button>
+      <h3>Already have an account? <a href="#">Log in</a></h3>
+    </footer>
+  </main>
+</body>
+</html>
